@@ -13,10 +13,5 @@ def test():
     return "<p>test route page!</p>"
 
 
-@app.route("/home")
-def home():
-    return "<p>test home page!</p>"
-
-
 if __name__ == "__main__":
     app.run()
